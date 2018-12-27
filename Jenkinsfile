@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh '--version'
+                sh C:\temp\test.sh
             }
         }
     }
