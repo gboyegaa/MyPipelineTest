@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-				sh('''#!C:\Program Files\Git\usr\bin\bash.exe echo "I am in bash"''')
+				sh -c "echo 'Wow, I am done'"
             }
         }
     }
